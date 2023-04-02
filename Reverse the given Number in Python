@@ -1,0 +1,17 @@
+# given number
+given_num = 12345
+
+# Take a variable reverse_number and initialize it to null
+reverse_number = 0
+
+# using while loop to reverse the given number :-)
+
+while (given_num > 0):
+    # implementing the algorithm
+    # getting the last digit
+    remainder = given_num % 10
+    reverse_number = (reverse_number * 10) + remainder
+    given_num = given_num // 10
+
+# Display the result
+print("The reversed number =", reverse_number)
